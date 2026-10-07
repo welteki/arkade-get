@@ -291,6 +291,9 @@ inputs:
   k3sup:
     description: 'Install k3sup'
     required: false
+  k3sup-pro:
+    description: 'Install k3sup-pro'
+    required: false
   k6:
     description: 'Install k6'
     required: false
@@ -384,6 +387,9 @@ inputs:
   kubie:
     description: 'Install kubie'
     required: false
+  kullu:
+    description: 'Install kullu'
+    required: false
   kumactl:
     description: 'Install kumactl'
     required: false
@@ -458,6 +464,9 @@ inputs:
     required: false
   oha:
     description: 'Install oha'
+    required: false
+  oidc-cli:
+    description: 'Install oidc-cli'
     required: false
   op:
     description: 'Install op'
@@ -540,8 +549,23 @@ inputs:
   seaweedfs:
     description: 'Install seaweedfs'
     required: false
+  shellcheck:
+    description: 'Install shellcheck'
+    required: false
+  shfmt:
+    description: 'Install shfmt'
+    required: false
+  signet:
+    description: 'Install signet'
+    required: false
   skupper:
     description: 'Install skupper'
+    required: false
+  slicer:
+    description: 'Install slicer'
+    required: false
+  slicer-agent:
+    description: 'Install slicer-agent'
     required: false
   snowmachine:
     description: 'Install snowmachine'
@@ -563,6 +587,9 @@ inputs:
     required: false
   stern:
     description: 'Install stern'
+    required: false
+  superterm:
+    description: 'Install superterm'
     required: false
   syft:
     description: 'Install syft'
@@ -606,6 +633,9 @@ inputs:
   tofu:
     description: 'Install tofu'
     required: false
+  toilgate:
+    description: 'Install toilgate'
+    required: false
   trivy:
     description: 'Install trivy'
     required: false
@@ -623,6 +653,9 @@ inputs:
     required: false
   viddy:
     description: 'Install viddy'
+    required: false
+  vmmeter:
+    description: 'Install vmmeter'
     required: false
   vzzn:
     description: 'Install vzzn'
